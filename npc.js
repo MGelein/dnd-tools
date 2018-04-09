@@ -110,6 +110,12 @@ const bonds = ['Dedicated to fulfilling a personal life goal', 'Protective of cl
     'Captivated by a romantic interest', 'Drawn to a special place', 'Protective of a sentimental keepsake',
     'Protective of a valuable possesion', 'Out for revenge'];
 
+/**NPC flaws */
+const flaws = ['Forbidden love or susceptibility to romance', 'Enjoys decadent pleasures', 'Arrogance', 
+    'Envies another creature\'s possesions or station', 'Overpowering greed', 'Prone to rage', 
+    'Has powerful enemy', 'Specific phobia', 'Shameful or scandalous history', 'Secret crime or misdeed',
+    'Possesion of forbidden lore', 'Foolhardy bravery'];
+
 /**Now add all race information */
 addRace('dwarf', 'common', ['hill', 'mountain'], 30, 250, 350);
 addRace('elf', 'common', ['high', 'wood'], 40, 500, 800);
