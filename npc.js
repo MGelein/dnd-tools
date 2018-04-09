@@ -58,6 +58,17 @@ const names = {
     }
 }
 
+/**Character traits from the DMG */
+const appearances = ['Distinctive jewelry: earrings, necklace, circlet, bracelets, etc.',
+                    'Piercings','Flamboyant or outlandish clothes',
+                    'Formal, clean clothes','Ragged, dirty clothes',
+                    'Pronounced scar', 'Missing teeth', 'Missing fingers',
+                    'Unusual eye color', 'Tattoos', 'Birthmark', 'Bald',
+                    'Unusual skin color', 'Braided beard or hair',
+                    'Unusual hair color', 'Nervous eye twitch',
+                    'Distinctive nose', 'Distinctive posture',
+                    'Exceptionally beautiful', 'Exceptionally ugly'];
+
 /**Now add all race information */
 addRace('dwarf', 'common', ['hill', 'mountain'] ,  30, 250, 350);
 addRace('elf', 'common', ['high', 'wood'], 40, 500, 800);
