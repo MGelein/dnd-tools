@@ -69,6 +69,22 @@ const appearances = ['Distinctive jewelry: earrings, necklace, circlet, bracelet
                     'Distinctive nose', 'Distinctive posture',
                     'Exceptionally beautiful', 'Exceptionally ugly'];
 
+/** High ability score */
+const abilities_h = ['STR: powerful, brawny, strong as an ox', 'DEX: lithe, agile, graceful',
+                    'CON: hardy, hale, healthy', 'INT: studious learned, inquisitive',
+                    'WIS: perceptive, spiritual, insightful', 'CHR: persuasive, forceful, born leader'];
+
+/** Low ability score */
+const abilities_l = ['STR: feeble, scrawny', 'DEX: clumsy, fumbling', 'CON: sickly, pale',
+                    'INT: dim-witted, slow, uneducated', 'WIS: oblivious, absent-minded', 'CHR: dull, boring, abrasive'];
+
+/** Talents an NPC can have*/
+const talents = ['Plays a musical instrument', 'Speaks several languages fluently', 'Unbelievably lucky', 'Perfect memory',
+                'Great with animals', 'Great with children', 'Great at solving puzzles', 'Great at one game', 'Great at impersonations',
+                'Draws beautifully', 'Paints beautifully', 'Sings beautifully', 'Drinks everyone under the table', 
+                'Expert carpenter', 'Expert cook', 'Expert dart thrower and rock skipper', 'Expert juggler',
+                'Skilled actor and master of disguise', 'Skilled dancer', 'Knows thieves\' cant'];
+
 /**Now add all race information */
 addRace('dwarf', 'common', ['hill', 'mountain'] ,  30, 250, 350);
 addRace('elf', 'common', ['high', 'wood'], 40, 500, 800);
