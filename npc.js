@@ -85,6 +85,18 @@ const talents = ['Plays a musical instrument', 'Speaks several languages fluentl
                 'Expert carpenter', 'Expert cook', 'Expert dart thrower and rock skipper', 'Expert juggler',
                 'Skilled actor and master of disguise', 'Skilled dancer', 'Knows thieves\' cant'];
 
+/** NPC mannerisms */
+const mannerisms = ['Prone to singing, whistling or humming quietly', 'Speaks in rhyme or some other peculiar way',
+                    'Particularly high or low voice', 'Slurs words, lisps or stutters', 'Enunciates words overly clearly',
+                    'Speaks loudly', 'Whispers', 'Uses flowery speech or long words', 'Frequently uses the wrong word',
+                    'Uses colourful oaths and exclamations', 'Makes constant jokes or puns', 'Prone to prediction of doom',
+                    'Fidgets', 'Squints', 'Stares into the distance', 'Chews something', 'Paces', 'Taps fingers',
+                    'Bites fingernails', 'Twirls hair or tugs beard'];
+
+/** The traits the NPC uses in interactions */
+const interaction_traits = ['Argumentative',  'Arrogant', 'Blustering', 'Rude', 'Curious', 'Friendly', 'Honest', 'Hot tempered', 'Irritable', 'Ponderous', 'Quiet', 'Suspicious'];
+
+
 /**Now add all race information */
 addRace('dwarf', 'common', ['hill', 'mountain'] ,  30, 250, 350);
 addRace('elf', 'common', ['high', 'wood'], 40, 500, 800);
