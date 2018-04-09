@@ -168,7 +168,7 @@ age = getAge();
 const trait = rnd(character);
 /**Gets a name from the now known information */
 const name = getName();
-
+/**What pronoun to use, suck it SJW's */
 const pronoun = gender == 'male' ? 'he' : 'she';
 
 const output = "Name:\t\t" + name + "\nSex, Race, Age:\t" + gender + " " + race.name + " of " + age + " years old."
