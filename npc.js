@@ -59,15 +59,15 @@ const names = {
 }
 
 /**Character traits from the DMG */
-const appearances = ['Distinctive jewelry: earrings, necklace, circlet, bracelets, etc.',
-    'Piercings', 'Flamboyant or outlandish clothes',
-    'Formal, clean clothes', 'Ragged, dirty clothes',
-    'Pronounced scar', 'Missing teeth', 'Missing fingers',
-    'Unusual eye color', 'Tattoos', 'Birthmark', 'Bald',
-    'Unusual skin color', 'Braided beard or hair',
-    'Unusual hair color', 'Nervous eye twitch',
-    'Distinctive nose', 'Distinctive posture',
-    'Exceptionally beautiful', 'Exceptionally ugly'];
+const appearances = ['distinctive jewelry: earrings, necklace, circlet, bracelets, etc.',
+    'piercings', 'flamboyant or outlandish clothes',
+    'formal, clean clothes', 'ragged, dirty clothes',
+    'a pronounced scar', 'missing teeth', 'missing fingers',
+    'an unusual eye color', 'tattoos', 'a birthmark', 'a bald head',
+    'an unusual skin color', 'a braided beard or hair',
+    'an unusual hair color', 'a nervous eye twitch',
+    'a distinctive nose', 'a distinctive posture',
+    'an exceptionally beautiful face', 'an exceptionally ugly face'];
 const appearance = rnd(appearances);
 
 /** High ability score */
@@ -169,15 +169,13 @@ const trait = rnd(character);
 /**Gets a name from the now known information */
 const name = getName();
 
-/**We're done with generating, print the results */
-console.log(name + " is a " + trait + " " + gender + " " + race.name + " of " + age + " years old.");
-/**Now print more info on the NPC */
-console.log("Appearance: " + appearance);
-console.log("Abilities: H: " + highAbility + "\tL: " + lowAbility);
-console.log("Talent: " + talent);
-console.log("Mannerism: " + mannerism);
-console.log("Interaction: " + interactionTrait + "\tIdeal: " + ideal);
-console.log("Bond: " + bond + "\tFlaw: " + flaw);
+const pronoun = gender == 'male' ? 'he' : 'she';
+
+const output = "Name:\t\t" + name + "\nSex, Race, Age:\t" + gender + " " + race.name + " of " + age + " years old."
++"\nAppearance:\t" + pronoun + " has " + appearance + "\nHigh Ability:\t" + highAbility +"\nLow Ability:\t" + lowAbility
++"\nTalent:\t\t" + talent + "\nMannerism:\t" + mannerism + "\nInteraction:\t" + interactionTrait + "\nIdeal:\t\t" + ideal
++"\nBond:\t\t" + bond + "\nFlaw:\t\t" + flaw; 
+console.log(output);
 
 
 /**
