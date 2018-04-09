@@ -68,15 +68,18 @@ const appearances = ['Distinctive jewelry: earrings, necklace, circlet, bracelet
     'Unusual hair color', 'Nervous eye twitch',
     'Distinctive nose', 'Distinctive posture',
     'Exceptionally beautiful', 'Exceptionally ugly'];
+const appearance = rnd(appearances);
 
 /** High ability score */
 const abilities_h = ['STR: powerful, brawny, strong as an ox', 'DEX: lithe, agile, graceful',
     'CON: hardy, hale, healthy', 'INT: studious learned, inquisitive',
     'WIS: perceptive, spiritual, insightful', 'CHR: persuasive, forceful, born leader'];
+const highAbility = rnd(abilities_h);
 
 /** Low ability score */
 const abilities_l = ['STR: feeble, scrawny', 'DEX: clumsy, fumbling', 'CON: sickly, pale',
     'INT: dim-witted, slow, uneducated', 'WIS: oblivious, absent-minded', 'CHR: dull, boring, abrasive'];
+const lowAbility = rnd(abilities_l);
 
 /** Talents an NPC can have*/
 const talents = ['Plays a musical instrument', 'Speaks several languages fluently', 'Unbelievably lucky', 'Perfect memory',
@@ -84,6 +87,7 @@ const talents = ['Plays a musical instrument', 'Speaks several languages fluentl
     'Draws beautifully', 'Paints beautifully', 'Sings beautifully', 'Drinks everyone under the table',
     'Expert carpenter', 'Expert cook', 'Expert dart thrower and rock skipper', 'Expert juggler',
     'Skilled actor and master of disguise', 'Skilled dancer', 'Knows thieves\' cant'];
+const talent = rnd(talents);
 
 /** NPC mannerisms */
 const mannerisms = ['Prone to singing, whistling or humming quietly', 'Speaks in rhyme or some other peculiar way',
@@ -92,9 +96,11 @@ const mannerisms = ['Prone to singing, whistling or humming quietly', 'Speaks in
     'Uses colourful oaths and exclamations', 'Makes constant jokes or puns', 'Prone to prediction of doom',
     'Fidgets', 'Squints', 'Stares into the distance', 'Chews something', 'Paces', 'Taps fingers',
     'Bites fingernails', 'Twirls hair or tugs beard'];
+const mannerism = rnd(mannerisms);
 
 /** The traits the NPC uses in interactions */
-const interaction_traits = ['Argumentative', 'Arrogant', 'Blustering', 'Rude', 'Curious', 'Friendly', 'Honest', 'Hot tempered', 'Irritable', 'Ponderous', 'Quiet', 'Suspicious'];
+const interactionTraits = ['Argumentative', 'Arrogant', 'Blustering', 'Rude', 'Curious', 'Friendly', 'Honest', 'Hot tempered', 'Irritable', 'Ponderous', 'Quiet', 'Suspicious'];
+const interactionTrait = rnd(interactionTraits);
 
 /** Ideals for our NPC, this is for all alignements*/
 const ideals = ['Beauty', 'Charity', 'Greater Good', 'Life', 'Respect', 'Self-sacrifice',
@@ -103,18 +109,21 @@ const ideals = ['Beauty', 'Charity', 'Greater Good', 'Life', 'Respect', 'Self-sa
     'Change', 'Creativity', 'Freedom', 'Indepence', 'No Limits', 'Whimsy',
     'Balance', 'Knowledge', 'Live and let live', 'Moderation', 'Neutrality', 'People',
     'Aspiration', 'Discovery', 'Glory', 'Nation', 'Redemption', 'Self-knowledge'];
+const ideal = rnd(ideals);
 
 /** NPC bonds */
 const bonds = ['Dedicated to fulfilling a personal life goal', 'Protective of close family members',
     'Protective of colleagues or compatriots', 'Loyal to a benefactor, patron or employer',
     'Captivated by a romantic interest', 'Drawn to a special place', 'Protective of a sentimental keepsake',
     'Protective of a valuable possesion', 'Out for revenge'];
+const bond = rnd(bonds);
 
 /**NPC flaws */
 const flaws = ['Forbidden love or susceptibility to romance', 'Enjoys decadent pleasures', 'Arrogance', 
     'Envies another creature\'s possesions or station', 'Overpowering greed', 'Prone to rage', 
     'Has powerful enemy', 'Specific phobia', 'Shameful or scandalous history', 'Secret crime or misdeed',
     'Possesion of forbidden lore', 'Foolhardy bravery'];
+const flaw = rnd(flaws);
 
 /**Now add all race information */
 addRace('dwarf', 'common', ['hill', 'mountain'], 30, 250, 350);
