@@ -171,6 +171,13 @@ const name = getName();
 
 /**We're done with generating, print the results */
 console.log(name + " is a " + trait + " " + gender + " " + race.name + " of " + age + " years old.");
+/**Now print more info on the NPC */
+console.log("Appearance: " + appearance);
+console.log("Abilities: H: " + highAbility + "\tL: " + lowAbility);
+console.log("Talent: " + talent);
+console.log("Mannerism: " + mannerism);
+console.log("Interaction: " + interactionTrait + "\tIdeal: " + ideal);
+console.log("Bond: " + bond + "\tFlaw: " + flaw);
 
 
 /**
