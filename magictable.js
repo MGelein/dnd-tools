@@ -446,6 +446,7 @@ exports.rollA = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableA(roll()));
+        amount--;
     }
     return items.join("\n");
 }
@@ -458,6 +459,7 @@ exports.rollB = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableB(roll()));
+        amount--;
     }
     return items.join("\n");
 }
@@ -470,6 +472,7 @@ exports.rollC = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableC(roll()));
+        amount--;
     }
     return items.join("\n");
 }
@@ -482,6 +485,7 @@ exports.rollD = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableD(roll()));
+        amount--;
     }
     return items.join("\n");
 }
@@ -494,6 +498,7 @@ exports.rollE = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableE(roll()));
+        amount--;
     }
     return items.join("\n");
 }
@@ -506,6 +511,7 @@ exports.rollF = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableF(roll()));
+        amount--;
     }
     return items.join("\n");
 }
@@ -518,6 +524,7 @@ exports.rollG = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableG(roll()));
+        amount--;
     }
     return items.join("\n");
 }
@@ -530,6 +537,7 @@ exports.rollH = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableH(roll()));
+        amount--;
     }
     return items.join("\n");
 }
@@ -542,6 +550,7 @@ exports.rollI = function (amount) {
     let items = [];
     while (amount > 0) {
         items.push(tableI(roll()));
+        amount--;
     }
     return items.join("\n");
 }

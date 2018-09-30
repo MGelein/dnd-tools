@@ -44,7 +44,6 @@ args.forEach(function (argument) {
  */
 generateTreasure();
 
-
 /**
  * Generates the actual treasure
  */
