@@ -2,6 +2,8 @@
 const args = process.argv.splice(2);
 /**The executeSync command */
 const exec = require("child_process").execSync;
+/**Gem generation js file */
+const gems = require('./gems').gems;
 
 //Currency const
 const GP = "Gp";
@@ -14,16 +16,6 @@ const PPn = PP + " and ";
 const EPn = EP + " and ";
 const SPn = SP + " and ";
 const CPn = CP + " and ";
-
-/**
- * GEMS
- */
-const gems10 = ["Azurite (opaque mottled deep blue)", "Banded agate (translucent striped brown, blue, white or red)", "Blue quartz (transparent pale blue)", "Eye agate (translucent circles of gray, white, brown, blue or green)", "Hematite (opaque gray-black)", "Lapis lazuli (opaque light and dark blue with yellow flecks)", "Malachite (opaque striated light and dark green)", "Moss agate (translucent pink or yellow-white with mossy gray or green markings)", "Obisidian (opaque black)", "Rhodochrosite (opaque light pink)", "Tiger eye (translucent brown with golden center)", "Turquoise (opaque light blue-green)"];
-const gems50 = ["Bloodstone (opaque dark gray with red flecks)", "Carnelian (opaque orange to red-brown)", "Chalcedony (opaque white)", "Chrysoprase (translucent green)", "Citrine (translucent pale yellow-brown)", "Jasper (opaque blue, black or brown)", "Moonstone (translucent white with pale blue glow)", "Onyx (opaque bands of black and white, or pure black or white)", "Quartz (transparent white, smoky gray or yellow)", "Sardonyx (opaque bands of red and white)", "Star rose quartz (translucent rosy stone with white star-shaped center)", "Zircon (transparent pale blue-green)"];
-const gems100 = ["Amber (transparent watery gold to rich gold)", "Amethyst (transparent deep purple)", "Chrysoberyl (transparent yellow-green to pale green)", "Coral (opaque crimson)", "Garnet (transparent red, brown-green or violet)", "Jade (translucent light green, deep green or white)", "Jet (opaque deep black)", "Pearl (opaque lustrous white, yellow or pink)", "Spinel (transparent red, red-brown or deep green)", "Tourmaline (transparent pale green, blue, brown or red)"];
-const gems500 = ["Alexandrite (transparent dark green)", "Aquamarine (transparent pale blue green)", "Black pearl (opaque pure black)", "Blue spinel (transparent deep blue)", "Peridot (transparent rich olive green)", "Topaz (transparent golden yellow)"];
-const gems1000 = ["Black opal (translucent dark green with black mottling and golden flecks)", "Blue sapphire (transparent blue-white to medium blue)", "Emerald (transparent deep bright green)", "Fire opal (translucent fiery red)", "Opal (translucent pale blue with green and golden mottling)", "Star ruby (translucent red ruby with white star shaped center)", "Star sapphire (translucent blue sapphire with white star shaped center)", "Yellow sapphire (transparent fiery yellow or yellow-green)"];
-const gems5000 = ["Black sapphire (translucent lustrous black with glowing highlights)", "Diamond (transparent blue-white, canary, pink, brown or blue)", "Jacinth (transparent fiery orange)", "Ruby (transparent clear red to deep crimson)"];
 
 /**
  * ART
@@ -55,6 +47,7 @@ args.forEach(function (argument) {
  * The line that does the actual work
  */
 generateTreasure();
+console.log(gems(10, 3));
 
 /**
  * Generates the actual treasure
@@ -90,8 +83,46 @@ function hoardTreasure() {
 /**
  * Roll uncommon hoard treasure
  */
-function hoardUncommon() {
-    //First roll the money
+function hoardUncommon(chance) {
+    //First roll the money and add it to the list of treasure
+    let money = getMoney(d6(6) * 100, d6(3) * 100, 0, d6(2) * 10, 0);
+    treasure.push(money);
+    //Now decide on chance what we do
+    if(chance == 100){
+
+    }else if(chance >= 98){
+
+    }else if(chance >= 93){
+
+    }else if(chance >= 86){
+
+    }else if(chance >= 81){
+
+    }else if(chance >= 79){
+
+    }else if(chance >= 76){
+
+    }else if(chance >= 71){
+
+    }else if(chance >= 66){
+
+    }else if(chance >= 61){
+
+    }else if(chance >= 53){
+
+    }else if(chance >= 45){
+
+    }else if(chance >= 37){
+
+    }else if(chance >= 27){
+        
+    }else if(chance >= 17){
+
+    }else if(chance >= 7){
+
+    }else{
+        //Do nothing, small chance to get nothing but money
+    }
 }
 
 /**
@@ -304,16 +335,6 @@ function d12(times) { return dice(12, times) };
 function d20(times) { return dice(20, times) };
 function d100(times) { return dice(100, times) };
 
-/**
- * Returns a string that represents what we give
- * @param {int} worth the worth of the stone
- * @param {int} amount of stones to give
- */
-function gems(worth, amount) {
-    //Pick the right list based on worth
-    let gemList = (worth == 5000) ? gems5000 : (worth == 50) ? gems50 : (worth == 100) ? gems100 : (worth == 500) ? gems500 : (worth == 1000) ? gems1000 : gems10;
-    return amount + "x " + rnd(gemList);
-}
 
 /**
  * Returns a string that represents what we give
