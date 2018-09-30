@@ -2,6 +2,13 @@
 const args = process.argv.splice(2);
 
 /**
+ * We can say a couple of things about a city:
+ * - SIZE (most important) (tiny, small, medium, large, huge) (tens, hundreds, thousands, tenthousands, hundredthousands)
+ * - ORIGIN (what people are most predominantly in there) (any race option)
+ * - NAME (given or random)
+ */
+
+/**
  * Returns a random option from an array
  * @param {Array} array 
  */
