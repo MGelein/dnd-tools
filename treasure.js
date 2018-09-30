@@ -15,11 +15,6 @@ const PP = "Pp";
 const SP = "Sp";
 const EP = "Ep";
 const CP = "Cp";
-const GPn = GP + " and ";
-const PPn = PP + " and ";
-const EPn = EP + " and ";
-const SPn = SP + " and ";
-const CPn = CP + " and ";
 
 
 //This variable will hold the size specification, by default individual
