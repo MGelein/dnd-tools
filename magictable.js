@@ -5,7 +5,7 @@
 /**
  * Rolls a d100 and returns chance
  */
-function roll(){
+function roll() {
     return Math.floor(Math.random() * 100) + 1;
 }
 
@@ -442,97 +442,106 @@ function tableI(chance) {
  * Rolls the provided amount of times on table A
  * @param {int} amount 
  */
-exports.rollA = function(amount){
+exports.rollA = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableA(roll()));
     }
+    return items.join("\n");
 }
 
 /**
  * Rolls the provided amount of times on table B
  * @param {int} amount 
  */
-exports.rollB = function(amount){
+exports.rollB = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableB(roll()));
     }
+    return items.join("\n");
 }
 
 /**
  * Rolls the provided amount of times on table C
  * @param {int} amount 
  */
-exports.rollC = function(amount){
+exports.rollC = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableC(roll()));
     }
+    return items.join("\n");
 }
 
 /**
  * Rolls the provided amount of times on table D
  * @param {int} amount 
  */
-exports.rollD = function(amount){
+exports.rollD = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableD(roll()));
     }
+    return items.join("\n");
 }
 
 /**
  * Rolls the provided amount of times on table E
  * @param {int} amount 
  */
-exports.rollE = function(amount){
+exports.rollE = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableE(roll()));
     }
+    return items.join("\n");
 }
 
 /**
  * Rolls the provided amount of times on table F
  * @param {int} amount 
  */
-exports.rollF = function(amount){
+exports.rollF = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableF(roll()));
     }
+    return items.join("\n");
 }
 
 /**
  * Rolls the provided amount of times on table G
  * @param {int} amount 
  */
-exports.rollG = function(amount){
+exports.rollG = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableG(roll()));
     }
+    return items.join("\n");
 }
 
 /**
  * Rolls the provided amount of times on table H
  * @param {int} amount 
  */
-exports.rollH = function(amount){
+exports.rollH = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableH(roll()));
     }
+    return items.join("\n");
 }
 
 /**
  * Rolls the provided amount of times on table I
  * @param {int} amount 
  */
-exports.rollI = function(amount){
+exports.rollI = function (amount) {
     let items = [];
-    while(amount > 0){
+    while (amount > 0) {
         items.push(tableI(roll()));
     }
+    return items.join("\n");
 }

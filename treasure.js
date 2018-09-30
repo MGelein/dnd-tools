@@ -6,6 +6,8 @@ const exec = require("child_process").execSync;
 const {gems} = require('./gems');
 /**Art generation js file */
 const {art} = require('./art');
+/**Magic tables */
+const magicTable = require('./magictable');
 
 //Currency const
 const GP = "Gp";
@@ -41,6 +43,7 @@ args.forEach(function (argument) {
  * The line that does the actual work
  */
 generateTreasure();
+
 
 /**
  * Generates the actual treasure
