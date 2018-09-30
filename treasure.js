@@ -25,6 +25,14 @@ const gems500 = ["Alexandrite (transparent dark green)", "Aquamarine (transparen
 const gems1000 = ["Black opal (translucent dark green with black mottling and golden flecks)", "Blue sapphire (transparent blue-white to medium blue)", "Emerald (transparent deep bright green)", "Fire opal (translucent fiery red)", "Opal (translucent pale blue with green and golden mottling)", "Star ruby (translucent red ruby with white star shaped center)", "Star sapphire (translucent blue sapphire with white star shaped center)", "Yellow sapphire (transparent fiery yellow or yellow-green)"];
 const gems5000 = ["Black sapphire (translucent lustrous black with glowing highlights)", "Diamond (transparent blue-white, canary, pink, brown or blue)", "Jacinth (transparent fiery orange)", "Ruby (transparent clear red to deep crimson)"];
 
+/**
+ * ART
+ */
+const art25 = ["Silver ewer", "Carved bone statuette", "Small gold bracelet", "Cloth-of-gold vestments", "Black velvet mask stitched with silver thread", "Copper chalice with silver filligree", "Pair of engraved bone dice", "Small mirror set in a painted wooden frame", "Embroidered silk handkerchief", "Gold locket with a painted portrait inside"];
+const art250 = ["Gold ring set with bloodstones", "Carved ivory statuette", "Large gold bracelet", "Silver necklace with a gemstone pendant", "Bronze crown", "Silk robe", "Large well-made tapestry", "Brass mug with a jade inlay", "Box of turquoise animal figurines", "Gold bird cage with electrum filigree"];
+const art750 = ["Silver chalice set with moonstones", "Silver-plated steel longsword with jet set in hilt", "Carved harp of exotic wood with ivory inlay and zircon gems", "Small gold idol", "Gold dragon comb set with red garnets as eyes", "Bottle stopper cork embossed with gold leaf and set with amethysts", "Ceremonial electrum dagger with a black pearl in the pommel", "Silver and gold brooch", "Obsidian statuette with gold fittings and inlay", "Painted gold war mask"];
+const art2500 = ["Fine gold chain set with a fire opal", "Old masterpiece painting", "Embroidered silk and velvet mantle set with numerous moonstones", "Platinum bracelet set with a sapphire", "Embroidered glove set with jewel chips", "Jeweled anklet", "Gold music box", "Gold circlet set with four aquamarines", "Eye patch with a mock eye set in blue sapphire and moonstone", "A necklace string of small pink pearls"];
+const art7500 = ["Jeweled gold crown", "Jeweled platinum ring", "Small gold statuette set with rubies", "Gold cup set with emerals", "Gold jewelry box with platinum filigree", "Painted gold child's sarcophagus", "Jade game board with solid gold playing pieces", "Bejeweled ivory drinking horn with gold filigree"];
 
 //This variable will hold the size specification, by default individual
 let size = "individual";
@@ -47,7 +55,6 @@ args.forEach(function (argument) {
  * The line that does the actual work
  */
 generateTreasure();
-
 
 /**
  * Generates the actual treasure
@@ -309,10 +316,19 @@ function gems(worth, amount) {
 }
 
 /**
- * ART
+ * Returns a string that represents what we give
+ * @param {int} worth 
+ * @param {int} amount 
  */
-const art25 = ["Silver ewer", "Carved bone statuette", "Small gold bracelet", "Cloth-of-gold vestments", "Black velvet mask stitched with silver thread", "Copper chalice with silver filligree", "Pair of engraved bone dice", "Small mirror set in a painted wooden frame", "Embroidered silk handkerchief", "Gold locket with a painted portrait inside"];
-const art250 = ["Gold ring set with bloodstones", "Carved ivory statuette", "Large gold bracelet", "Silver necklace with a gemstone pendant", "Bronze crown", "Silk robe", "Large well-made tapestry", "Brass mug with a jade inlay", "Box of turquoise animal figurines", "Gold bird cage with electrum filigree"];
-const art750 = ["Silver chalice set with moonstones", "Silver-plated steel longsword with jet set in hilt", "Carved harp of exotic wood with ivory inlay and zircon gems", "Small gold idol", "Gold dragon comb set with red garnets as eyes", "Bottle stopper cork embossed with gold leaf and set with amethysts", "Ceremonial electrum dagger with a black pearl in the pommel", "Silver and gold brooch", "Obsidian statuette with gold fittings and inlay", "Painted gold war mask"];
-const art2500 = ["Fine gold chain set with a fire opal", "Old masterpiece painting", "Embroidered silk and velvet mantle set with numerous moonstones", "Platinum bracelet set with a sapphire", "Embroidered glove set with jewel chips", "Jeweled anklet", "Gold music box", "Gold circlet set with four aquamarines", "Eye patch with a mock eye set in blue sapphire and moonstone", "A necklace string of small pink pearls"];
-const art7500 = ["Jeweled gold crown", "Jeweled platinum ring", "Small gold statuette set with rubies", "Gold cup set with emerals", "Gold jewelry box with platinum filigree", "Painted gold child's sarcophagus", "Jade game board with solid gold playing pieces", "Bejeweled ivory drinking horn with gold filigree"];
+function art(worth, amount){
+    //All the parts of the art stuff together
+    let parts = [];
+    //Pick the right artList based on worth
+    let artList = (worth == 7500) ? art7500 : (worth == 2500) ? art2500 : (worth == 750) ? art750 : (worth == 250) ? art250 : art25;
+    //Now pick untill amount < 0
+    while(amount > 0){
+        parts.push(rnd(artList));
+        amount --;
+    }
+    return parts.join("\n");
+}
