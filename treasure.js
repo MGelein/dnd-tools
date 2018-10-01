@@ -3,11 +3,11 @@ const args = process.argv.splice(2);
 /**The executeSync command */
 const exec = require("child_process").execSync;
 /**Gem generation js file */
-const {gems} = require('./gems');
+const {gems} = require('./lib/gems');
 /**Art generation js file */
-const {art} = require('./art');
+const {art} = require('./lib/art');
 /**Magic tables */
-const magicTable = require('./magictable');
+const magicTable = require('./lib/magictable');
 
 //Currency const
 const GP = "Gp";
@@ -15,7 +15,6 @@ const PP = "Pp";
 const SP = "Sp";
 const EP = "Ep";
 const CP = "Cp";
-
 
 //This variable will hold the size specification, by default individual
 let size = "individual";
