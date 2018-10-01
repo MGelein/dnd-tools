@@ -71,6 +71,120 @@ function hoardTreasure() {
 }
 
 /**
+ * Roll very rare hoard treasure
+ * @param {Number} chance
+ */
+function hoardVeryRare(chance){
+    //First roll the money and add it to the list of treasure
+    let money = getMoney(0, 0, 0, d6(4) * 1000, d6(5) * 100);
+    treasure.push(money);
+    //Now decide on chance what we do
+    if(chance >= 99){
+        treasure.push(gems(1000, d6(3)));
+        treasure.push(magicTable.rollI(1));
+    }else if(chance >= 97){
+        treasure.push(gems(1000, d6(3)));//CHECK
+        treasure.push(magicTable.rollI(1));
+    }else if(chance >= 95){
+        treasure.push(gems(500, d6(3)));
+        treasure.push(magicTable.rollI(1));
+    }else if(chance >= 93){
+        treasure.push(art(250, d4(2)));
+        treasure.push(magicTable.rollI(1));
+    }else if(chance >= 91){
+        treasure.push(gems(1000, d6(3)));
+        treasure.push(magicTable.rollH(d4()));
+    }else if(chance >= 89){
+        treasure.push(gems(500, d6(3)));
+        treasure.push(magicTable.rollH(d4()));
+    }else if(chance >= 86){
+        treasure.push(art(750, d4(2)));
+        treasure.push(magicTable.rollH(d4()));
+    }else if(chance >= 83){
+        treasure.push(art(250, d4(2)));
+        treasure.push(magicTable.rollH(d4()));
+    }else if(chance >= 81){
+        treasure.push(gems(1000, d6(3)));
+        treasure.push(magicTable.rollF(1));
+        treasure.push(magicTable.rollG(d4()));
+    }else if(chance >= 79){
+        treasure.push(gems(500, d6(3)));
+        treasure.push(magicTable.rollF(1));
+        treasure.push(magicTable.rollG(d4()));
+    }else if(chance >= 77){
+        treasure.push(art(750, d4(2)));
+        treasure.push(magicTable.rollF(1));
+        treasure.push(magicTable.rollG(d4()));
+    }else if(chance >= 75){
+        treasure.push(art(250, d4(2)));
+        treasure.push(magicTable.rollF(1));
+        treasure.push(magicTable.rollG(d4()));
+    }else if(chance >= 73){
+        treasure.push(gems(1000, d6(3)));
+        treasure.push(magicTable.rollE(1));
+    }else if(chance >= 71){
+        treasure.push(gems(500, d6(3)));
+        treasure.push(magicTable.rollE(1));
+    }else if(chance >= 69){
+        treasure.push(art(750, d4(2)));
+        treasure.push(magicTable.rollE(1));
+    }else if(chance >= 67){
+        treasure.push(art(250, d4(2)));
+        treasure.push(magicTable.rollE(1));
+    }else if(chance >= 63){
+        treasure.push(gems(1000, d6(3)));
+        treasure.push(magicTable.rollD(d4()));
+    }else if(chance >= 59){
+        treasure.push(gems(500, d6(3)));
+        treasure.push(magicTable.rollD(d4()));
+    }else if(chance >= 55){
+        treasure.push(art(750, d4(2)));
+        treasure.push(magicTable.rollD(d4()));
+    }else if(chance >= 51){
+        treasure.push(art(250, d4(2)));
+        treasure.push(magicTable.rollD(d4()));
+    }else if(chance >= 46){
+        treasure.push(gems(1000, d6(3)));
+        treasure.push(magicTable.rollC(d6()));
+    }else if(chance >= 41){
+        treasure.push(gems(500, d6(3)));
+        treasure.push(magicTable.rollC(d6()));
+    }else if(chance >= 36){
+        treasure.push(art(750, d4(2)));
+        treasure.push(magicTable.rollC(d6()));
+    }else if(chance >= 30){
+        treasure.push(art(250, d4(2)));
+        treasure.push(magicTable.rollC(d6()));
+    }else if(chance >= 27){
+        treasure.push(gems(1000, d6(3)));
+        treasure.push(magicTable.rollA(d4()));
+        treasure.push(magicTable.rollB(d6()));
+    }else if(chance >= 24){
+        treasure.push(gems(500, d6(3)));
+        treasure.push(magicTable.rollA(d4()));
+        treasure.push(magicTable.rollB(d6()));
+    }else if(chance >= 20){
+        treasure.push(art(750, d4(2)));
+        treasure.push(magicTable.rollA(d4()));
+        treasure.push(magicTable.rollB(d6()));
+    }else if(chance >= 16){
+        treasure.push(art(250, d4(2)));
+        treasure.push(magicTable.rollA(d4()));
+        treasure.push(magicTable.rollB(d6()));
+    }else if(chance >= 13){
+        treasure.push(gems(1000, d6(3)));
+    }else if(chance >= 11){
+        treasure.push(gems(500, d6(3)));
+    }else if(chance >= 7){
+        treasure.push(art(750, d4(2)));
+    }else if(chance >= 4){
+        treasure.push(art(250, d4(2)));
+    }else if(chance >= 1){
+        //Small chance you get nothing but money
+    }
+}
+
+/**
  * Roll rare hoard treasure
  * @param {Number} chance 
  */
@@ -140,7 +254,7 @@ function hoardRare(chance){
         treasure.push(art(25, d4(2)));
         treasure.push(magicTable.rollB(d4()));
     }else if(chance >= 41){
-        treasure.push(art(250, d4(2)));
+        treasure.push(art(250, d4(2))); //CHECK
         treasure.push(magicTable.rollA(d6()));
     }else if(chance >= 37){
         treasure.push(gems(100, d6(3)));
