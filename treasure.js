@@ -8,6 +8,8 @@ const {gems} = require('./lib/gems');
 const {art} = require('./lib/art');
 /**Magic tables */
 const magicTable = require('./lib/magictable');
+/**Random methods */
+const {rnd, random} = require('./lib/random');
 
 //Currency const
 const GP = "Gp";
@@ -557,26 +559,6 @@ function isSize(choice) {
 }
 
 /**
-* Returns a random option from an array
-* @param {Array} array 
-*/
-function rnd(array) {
-    return array[Math.floor((Math.random() * array.length))];
-}
-
-/**
- * Random number whole between minimum and maxmimum
- * @param {Number} min 
- * @param {Number} max 
- */
-function random(min, max) {
-    //Get the age-range
-    var range = Math.max(0, max - min);
-    //Only return whole years
-    return Math.round(Math.random() * range + min);
-}
-
-/**
  * Rolls a certain dice a certain amount of times, and 
  * adds all the results together
  * @param {int} size 
@@ -587,7 +569,7 @@ function dice(size, times) {
     if (!times) times = 1;
     let sum = 0;
     while (times > 0) {
-        sum += random(1, size);
+        sum += random(1, size + 1);
         times--;
     }
     return sum;
