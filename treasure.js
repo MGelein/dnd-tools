@@ -39,7 +39,7 @@ args.forEach(function (argument) {
  */
 generateTreasure();
 
-/**
+/**     
  * Generates the actual treasure
  */
 function generateTreasure() {
@@ -79,37 +79,50 @@ function hoardUncommon(chance) {
     treasure.push(money);
     //Now decide on chance what we do
     if(chance == 100){
-
+        treasure.push(gems(50, d6(2)));
+        treasure.push(magicTable.rollG(d6()));
     }else if(chance >= 98){
-
+        treasure.push(art(25, d4(2)));
+        treasure.push(magicTable.rollG(d6()));
     }else if(chance >= 93){
-
+        treasure.push(gems(50, d6(2)));
+        treasure.push(magicTable.rollF(d6()));
     }else if(chance >= 86){
-
+        treasure.push(art(25, d4(2)));
+        treasure.push(magicTable.rollF(d6()));
     }else if(chance >= 81){
-
+        treasure.push(gems(50, d6(2)));
+        treasure.push(magicTable.rollC(d6()));
     }else if(chance >= 79){
-
+        treasure.push(art(25, d4(2)));
+        treasure.push(magicTable.rollC(d6()));
     }else if(chance >= 76){
-
+        treasure.push(gems(10, d6(2)));
+        treasure.push(magicTable.rollC(d6()));
     }else if(chance >= 71){
-
+        treasure.push(gems(50, d6(2)));
+        treasure.push(magicTable.rollB(d6()));
     }else if(chance >= 66){
-
+        treasure.push(art(25, d4(2)));
+        treasure.push(magicTable.rollB(d6()));
     }else if(chance >= 61){
-
+        treasure.push(gems(10, d6(2)));
+        treasure.push(magicTable.rollB(d6()));
     }else if(chance >= 53){
-
+        treasure.push(gems(50, d6(2)));
+        treasure.push(magicTable.rollA(d6()));
     }else if(chance >= 45){
-
+        treasure.push(art(25, d4(2)));
+        treasure.push(magicTable.rollA(d6()));
     }else if(chance >= 37){
-
+        treasure.push(gems(10, d6(2)));
+        treasure.push(magicTable.rollA(d6()));
     }else if(chance >= 27){
-        
+        treasure.push(gems(50, d6(2)));
     }else if(chance >= 17){
-
+        treasure.push(art(25, d4(2)));
     }else if(chance >= 7){
-
+        treasure.push(gems(10, d6(2)));
     }else{
         //Do nothing, small chance to get nothing but money
     }
