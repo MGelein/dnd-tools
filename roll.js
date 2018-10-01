@@ -1,61 +1,15 @@
-//first remove the first two arguments as they are useless
-var arguments = process.argv.splice(2);
-if(arguments.length == 0){
+/**Import roll functionality from the dice library */
+const {roll} = require('./lib/dice');
+
+/**Store all command line parameters in a separate object */
+const args = process.argv.splice(2);
+if(args.length < 1) {
 	showHelp();
 	return;
 }
-//clean the input to determine what we're rolling
-arguments = arguments.join("");
 
-//turn the 'd' into a @
-arguments = arguments.replace(/[^d\+\-0-9]/g, "");
-if(arguments.indexOf('d') == -1){
-	console.log("No dice type found: I.e. No letter 'd' in your query");
-	console.log("Aborting roll...");
-	return;
-}
-
-console.log("Rolling: " + arguments);
-
-//Determine what to do based onthe arguments
-var numDice = arguments.split('d')[0];
-if(numDice.length == 0) numDice = 1;
-var diceParts = arguments.split('d')[1];
-var modifier = 0;
-var numSides = -1;
-//add the modifier if it is present
-if(diceParts.indexOf("+") != -1){
-	modifier = diceParts.split("+")[1];
-	numSides = diceParts.split("+")[0];
-}else if(diceParts.indexOf("-") != -1){
-	modifier -= diceParts.split("-")[1];
-	numSides = diceParts.split("-")[0];
-}else{
-	numSides = diceParts;
-}
-
-var max = parseInt(numDice);
-var rolled = "";
-var sum = 0;
-for(var i = 0; i < max; i++){
-	var value = rollDice(numSides);
-	rolled+= value + ", "
-	sum += value;
-}
-sum += parseInt(modifier);
-console.log("Dice: " + numDice + " dice with " + numSides + " sides")
-console.log("Rolled numbers: " + rolled.substr(0, rolled.length - 2));
-console.log("Modifier: " + modifier);
-console.log("----------------------");
-console.log("Result: " + sum);
-
-
-/**
-Rolls a die with the specified amount of sides
-**/
-function rollDice(sides){
-	return Math.floor(Math.random() * parseInt(sides)) + 1;
-}
+//Join the input and assess what it means
+roll(args.join(""), true);
 
 /**
 Shows the help menu to the user
