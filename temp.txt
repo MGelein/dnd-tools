@@ -1,45 +1,42 @@
-Abacus#2 gp#X X
-Barrel#2 gp#X X X
-Blanket#5 sp#X X X X
-Bottle, glass#2 gp#X X X
-Bucket#5 cp#X X X
-Candle#1 cp#X X X X
-Chest#5 gp#X X
-Clothes, Common#5 sp#X X X
-Clothes, Fine#15 gp#X
-Flask or Tankard#2 cp#X X X X
-Hammer#1 gp#X X X
-Ink (1 ounce bottle)#10 gp#X X X X
-Ink Pen#2 cp#X X X
-Jug or Pitcher#2 cp#X X X X
-Ladder (10-foot)#1 sp#X X X
-Lantern, Hooded#5 gp#X X
-Lamp X X X
-Lock#10 gp#X X
-Mess Kit#2 sp#X X X
-Mirror, Steel#5 gp#X X X
-Paper (one sheet)#2 sp#X X
-Parchment (one sheet)#1 sp#X X X
-Pick, Miner's#2 gp#X X X
-Pot, Iron#2 gp#X X X X
-Pouch#5 sp#X X X
-Rope, Hempen (50 feet)#1 gp#X X X
-Rope, Silk (50 feet)#10 gp#X
-Sack#1 cp#X X X X
-Scale, Merchant's#5 gp#X X
-Shovel#2 gp#X X X
-Signet Ring#5 gp#X X
-Soap#2 cp#X X
-Vial#1 gp#X X
-[Tools]
-Artisan's Tools
-Carpenter's Tools#15 gp#X X X X
-Cobbler's Tools#25 gp#X X X
-Cook's Utensils#50 gp#X X X X
-Glassblower's Tools#30 gp#X
-Leatherworker's Tools#5 gp#X X
-Mason's Tools#10 gp#X X X X
-Potter's Tools#10 gp#X X X
-Smith's Tools#20 gp#X
-Weaver's Tools#1 gp#X X X
-Woodcarver's Tools#1 gp#X X X X
+if(size >= 1) inventory.push({name: "Abacus", price:"2gp"});
+if(size >= 0) inventory.push({name: "Barrel", price:"2gp"});
+if(size >= 0) inventory.push({name: "Blanket", price:"5sp"});
+if(size >= 0) inventory.push({name: "Bottle, glass", price:"2gp"});
+if(size >= 0) inventory.push({name: "Bucket", price:"5cp"});
+if(size >= 0) inventory.push({name: "Candle", price:"1cp"});
+if(size >= 1) inventory.push({name: "Chest", price:"5gp"});
+if(size >= 0) inventory.push({name: "Clothes, Common", price:"5sp"});
+if(size >= 2) inventory.push({name: "Clothes, Fine", price:"15gp"});
+if(size >= 0) inventory.push({name: "Flask or Tankard", price:"2cp"});
+if(size >= 0) inventory.push({name: "Hammer", price:"1gp"});
+if(size >= 0) inventory.push({name: "Ink (1 ounce bottle)", price:"10gp"});
+if(size >= 0) inventory.push({name: "Ink Pen", price:"2cp"});
+if(size >= 0) inventory.push({name: "Jug or Pitcher", price:"2cp"});
+if(size >= 0) inventory.push({name: "Ladder (10-foot)", price:"1sp"});
+if(size >= 1) inventory.push({name: "Lantern, Hooded", price:"5gp"});
+if(size >= 1) inventory.push({name: "Lock", price:"10gp"});
+if(size >= 0) inventory.push({name: "Mess Kit", price:"2sp"});
+if(size >= 0) inventory.push({name: "Mirror, Steel", price:"5gp"});
+if(size >= 1) inventory.push({name: "Paper (one sheet)", price:"2sp"});
+if(size >= 0) inventory.push({name: "Parchment (one sheet)", price:"1sp"});
+if(size >= 0) inventory.push({name: "Pick, Miner's", price:"2gp"});
+if(size >= 0) inventory.push({name: "Pot, Iron", price:"2gp"});
+if(size >= 0) inventory.push({name: "Pouch", price:"5sp"});
+if(size >= 0) inventory.push({name: "Rope, Hempen (50 feet)", price:"1gp"});
+if(size >= 2) inventory.push({name: "Rope, Silk (50 feet)", price:"10gp"});
+if(size >= 0) inventory.push({name: "Sack", price:"1cp"});
+if(size >= 1) inventory.push({name: "Scale, Merchant's", price:"5gp"});
+if(size >= 0) inventory.push({name: "Shovel", price:"2gp"});
+if(size >= 1) inventory.push({name: "Signet Ring", price:"5gp"});
+if(size >= 1) inventory.push({name: "Soap", price:"2cp"});
+if(size >= 1) inventory.push({name: "Vial", price:"1gp"});
+if(size >= 0) inventory.push({name: "Carpenter's Tools", price:"15gp"});
+if(size >= 0) inventory.push({name: "Cobbler's Tools", price:"25gp"});
+if(size >= 0) inventory.push({name: "Cook's Utensils", price:"50gp"});
+if(size >= 2) inventory.push({name: "Glassblower's Tools", price:"30gp"});
+if(size >= 1) inventory.push({name: "Leatherworker's Tools", price:"5gp"});
+if(size >= 0) inventory.push({name: "Mason's Tools", price:"10gp"});
+if(size >= 0) inventory.push({name: "Potter's Tools", price:"10gp"});
+if(size >= 2) inventory.push({name: "Smith's Tools", price:"20gp"});
+if(size >= 0) inventory.push({name: "Weaver's Tools", price:"1gp"});
+if(size >= 0) inventory.push({name: "Woodcarver's Tools", price:"1gp"});
