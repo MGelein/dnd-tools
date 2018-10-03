@@ -1,9 +1,10 @@
-Crossbow, Light#25gp#X X X
-Shortbow#25gp#2
-Crossbow, Hand#75gp#X X
-Crossbow, Heavy#50gp#X X X
-Longbow#50gp#2
-Arrows (20)#1gp#2
-Crossbow Bolts (20)#1gp#X X X
-Case, Crossbow Bolt#1gp#X X X
-Quiver#1gp#2
+if(size >= 0) inventory.push({name: "Leather", price:"10gp"});
+if(size >= 0) inventory.push({name: "Studded Leather", price:"45gp"});
+if(size >= 0) inventory.push({name: "Hide", price:"10gp"});
+if(size >= 1) inventory.push({name: "Shield", price:"10gp"});
+if(size >= 0) inventory.push({name: "Sling", price:"1sp"});
+if(size >= 0) inventory.push({name: "Waterskin", price:"2sp"});
+if(size >= 0) inventory.push({name: "Cobbler's Tools", price:"5gp"});
+if(size >= 0) inventory.push({name: "Leatherworker's Tools", price:"5gp"});
+if(size >= 2) inventory.push({name: "Bagpipes", price:"30gp"});
+if(size >= 1) inventory.push({name: "Drum", price:"6gp"});
