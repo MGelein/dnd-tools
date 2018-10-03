@@ -1,53 +1,9 @@
-Studded Leather#45gp#P
-Chain Shirt#50gp#R
-Scale Mail#50gp#U
-Breastplate#400gp#R
-Half Plate#750gp#P
-Ring Mail#30gp#R
-Chain Mail#75gp#R
-Splint#200gp#X X
-Plate#1500gp#P
-Shield#10gp#R
-Dagger#2gp#R
-Handaxe#5gp#R
-Javelin#5sp#X X
-Light Hammer#2gp#X X
-Mace#5gp#X X X
-Sickle#1gp#X X
-Spear#1gp#R
-Battleaxe#10gp#R
-Flail#10gp#X X
-Glaive#20gp#X X
-Greataxe#30gp#X X X
-Greatsword#50gp#R
-Halberd#20gp#X X
-Lance#10gp#P
-Longsword#15gp#R
-Maul#10gp#X X
-Morningstar#15gp#X X
-Pike#5gp#X X X
-Rapier#25gp#P
-Scimitar#25gp#X X
-Shortsword#10gp#R
-Trident#5gp#P
-War Pick#5gp#X X
-Warhammer#15gp#X X X
-Block and Tackle#1gp#X X
-Chain (10 feet)#5gp#R
-Crowbar#2gp#R
-Grappling Hook#2gp#X X
-Hammer#1gp#R
-Hammer, Sledge#2gp#X X X
-Hunting Trap#5gp#X X X
-Lantern, Bullseye#10gp#P
-Lantern, Hooded#5gp#X X
-Lock#10gp#X X X
-Manacles#2gp#X X
-Mirror, Steel#5gp#X X
-Pick, Miner's#2gp#X X X
-Piton#5cp#X X X
-Pot, Iron#2gp#X X
-Spikes, Iron#1gp#X X
-Whetstone#1cp#R
-Smith's Tools#20gp#R
-Tinker's Tools#50gp#X
+Crossbow, Light#25gp#X X X
+Shortbow#25gp#2
+Crossbow, Hand#75gp#X X
+Crossbow, Heavy#50gp#X X X
+Longbow#50gp#2
+Arrows (20)#1gp#2
+Crossbow Bolts (20)#1gp#X X X
+Case, Crossbow Bolt#1gp#X X X
+Quiver#1gp#2
