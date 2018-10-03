@@ -1,39 +1,45 @@
-if(size >= 0) inventory.push({name: "Alms Box", price:"5gp"});
-if(size >= 1) inventory.push({name: "Bell", price:"1gp"});
-if(size >= 0) inventory.push({name: "Blanket", price:"5sp"});
-if(size >= 0) inventory.push({name: "Book, Scripture", price:"25gp"});
-if(size >= 0) inventory.push({name: "Candle", price:"1cp"});
-if(size >= 1) inventory.push({name: "Case, Map or Scroll", price:"1gp"});
-if(size >= 0) inventory.push({name: "Censer", price:"5gp"});
-if(size >= 0) inventory.push({name: "Chalk (1 piece)", price:"1cp"});
-if(size >= 0) inventory.push({name: "Flask", price:"2cp"});
-if(size >= 1) inventory.push({name: "Healer's Kit", price:"5gp"});
-if(size >= 0) inventory.push({name: "Amulet", price:"5gp"});
-if(size >= 0) inventory.push({name: "Emblem", price:"5gp"});
-if(size >= 0) inventory.push({name: "Reliquary", price:"5gp"});
-if(size >= 0) inventory.push({name: "Holy Water (flask)", price:"25gp"});
-if(size >= 0) inventory.push({name: "Incense (1 block)", price:"1cp"});
-if(size >= 1) inventory.push({name: "Ink (1 ounce bottle)", price:"10gp"});
-if(size >= 1) inventory.push({name: "Ink Pen", price:"2cp"});
-if(size >= 0) inventory.push({name: "Lamp", price:"5sp"});
-if(size >= 2) inventory.push({name: "Lantern, Hooded", price:"5gp"});
-if(size >= 0) inventory.push({name: "Oil (flask)", price:"1sp"});
-if(size >= 2) inventory.push({name: "Paper (one sheet)", price:"2sp"});
-if(size >= 2) inventory.push({name: "Parchment (one sheet)", price:"1sp"});
-if(size >= 2) inventory.push({name: "Perfume (vial)", price:"5gp"});
-if(size >= 2) inventory.push({name: "Potion of Healing", price:"50gp"});
-if(size >= 0) inventory.push({name: "Rations (1 day)", price:"5sp"});
-if(size >= 0) inventory.push({name: "Torch", price:"1cp"});
-if(size >= 0) inventory.push({name: "Vial", price:"1gp"});
-if(size >= 0) inventory.push({name: "Waterskin", price:"2sp"});
-if(size >= 1) inventory.push({name: "Calligrapher's Supplies", price:"10gp"});
-if(size >= 1) inventory.push({name: "Herbalism Kit", price:"5gp"});
-if(size >= 2) inventory.push({name: "Flute", price:"2gp"});
-if(size >= 2) inventory.push({name: "Lyre", price:"30gp"});
-if(size >= 2) inventory.push({name: "Horn", price:"3gp"});
-if(size >= 0) inventory.push({name: "Cure Wounds (lvl 1)", price:"10gp"});
-if(size >= 0) inventory.push({name: "Gentle Repose (lvl 2)", price:"50gp"});
-if(size >= 0) inventory.push({name: "Lesser Restoration (lvl 2)", price:"50gp"});
-if(size >= 0) inventory.push({name: "Remove Curse (lvl 3)", price:"100gp"});
-if(size >= 0) inventory.push({name: "Revivify (lvl 3)", price:"400gp"});
-if(size >= 0) inventory.push({name: "Raise Dead (lvl 5)", price:"1000gp"});
+Abacus#2 gp#X X
+Barrel#2 gp#X X X
+Blanket#5 sp#X X X X
+Bottle, glass#2 gp#X X X
+Bucket#5 cp#X X X
+Candle#1 cp#X X X X
+Chest#5 gp#X X
+Clothes, Common#5 sp#X X X
+Clothes, Fine#15 gp#X
+Flask or Tankard#2 cp#X X X X
+Hammer#1 gp#X X X
+Ink (1 ounce bottle)#10 gp#X X X X
+Ink Pen#2 cp#X X X
+Jug or Pitcher#2 cp#X X X X
+Ladder (10-foot)#1 sp#X X X
+Lantern, Hooded#5 gp#X X
+Lamp X X X
+Lock#10 gp#X X
+Mess Kit#2 sp#X X X
+Mirror, Steel#5 gp#X X X
+Paper (one sheet)#2 sp#X X
+Parchment (one sheet)#1 sp#X X X
+Pick, Miner's#2 gp#X X X
+Pot, Iron#2 gp#X X X X
+Pouch#5 sp#X X X
+Rope, Hempen (50 feet)#1 gp#X X X
+Rope, Silk (50 feet)#10 gp#X
+Sack#1 cp#X X X X
+Scale, Merchant's#5 gp#X X
+Shovel#2 gp#X X X
+Signet Ring#5 gp#X X
+Soap#2 cp#X X
+Vial#1 gp#X X
+[Tools]
+Artisan's Tools
+Carpenter's Tools#15 gp#X X X X
+Cobbler's Tools#25 gp#X X X
+Cook's Utensils#50 gp#X X X X
+Glassblower's Tools#30 gp#X
+Leatherworker's Tools#5 gp#X X
+Mason's Tools#10 gp#X X X X
+Potter's Tools#10 gp#X X X
+Smith's Tools#20 gp#X
+Weaver's Tools#1 gp#X X X
+Woodcarver's Tools#1 gp#X X X X
