@@ -29,7 +29,7 @@ const args = process.argv.splice(2);
 const forwardArgs = args.splice(1).join(" ");
 
 /**See to what module we have to forward the call*/
-const moduleName = args[0].trim().toLowerCase();
+const moduleName = (args.length > 0) ? args[0].trim().toLowerCase() : "help";
 
 /**Forward the arguments to the right module */
 if(moduleName === 'npc') console.log(npc(forwardArgs));
@@ -41,3 +41,41 @@ else if(moduleName === 'roll') console.log(roll(forwardArgs, true));
 else if(moduleName === 'rumour') console.log(rumour());
 else if(moduleName === 'shop') console.log(shop(forwardArgs));
 else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
+//Else check if we need to display the help option
+else if(moduleName === 'help') console.log(displayHelp());
+else if(moduleName === '?') console.log(displayHelp());
+//Unrecognized module
+else {
+let s = `Unrecognized module name: ${moduleName}. 
+Try 'help' for an overview of all options
+`;
+console.log(s);
+}
+
+/**
+ * Returns the help options
+ */
+function displayHelp(){
+let s =  
+`----------
+DND Tools
+----------
+Welcome to my DND tool suite. In this suite you will find a list of possibly useful tools 
+that all should help you generate random results from the command line. We have the following
+tools:
+
+npc         generates random npcs, complete with names, flaws, and ideals.
+book        generates books, titles and contents.
+city        generates a city description. No contents, just a bit of lore to get started.
+event       generates a random event to happen during a long rest.
+price       used to look up the price of an item. f.e. 'price dagger'
+roll        used to do dice rolls using text notation. f.e. 3d6+3 or 1d4x100
+rumour      generates a random rumour or hearsay.
+shop        generates a random shop, size, location and inventory.
+treasure    generates random treasure hoards as well as individual treasure.
+help/?      shows this command
+
+Use 'help' after a module name to see the help for that module.
+`
+return s;
+}
