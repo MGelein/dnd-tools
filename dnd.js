@@ -21,7 +21,8 @@ const {rumour} = require('./lib/rumours');
 const {shop} = require('./lib/shops');
 /**Import treasure module */
 const {treasure} = require('./lib/treasures');
-
+/**Import cr calculation module */
+const {cr} = require('./lib/cr');
 
 /**Store all command line parameters in a separate object */
 const args = process.argv.splice(2);
@@ -41,6 +42,7 @@ else if(moduleName === 'roll') roll(forwardArgs, true);//Don't console log the r
 else if(moduleName === 'rumour') console.log(rumour());
 else if(moduleName === 'shop') console.log(shop(forwardArgs));
 else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
+else if(moduleName === 'cr') cr();//Don't log the returned value
 //Else check if we need to display the help option
 else if(moduleName === 'help') console.log(displayHelp());
 else if(moduleName === '?') console.log(displayHelp());
