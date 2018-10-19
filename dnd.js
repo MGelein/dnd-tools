@@ -19,6 +19,8 @@ const {roll} = require('./lib/dice');
 const {rumour} = require('./lib/rumours');
 /**Import shop module */
 const {shop} = require('./lib/shops');
+/**Import treasure module */
+const {treasure} = require('./lib/treasures');
 
 
 /**Store all command line parameters in a separate object */
@@ -38,3 +40,4 @@ else if(moduleName === 'price') console.log(price(forwardArgs, true));
 else if(moduleName === 'roll') console.log(roll(forwardArgs, true));
 else if(moduleName === 'rumour') console.log(rumour());
 else if(moduleName === 'shop') console.log(shop(forwardArgs));
+else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
