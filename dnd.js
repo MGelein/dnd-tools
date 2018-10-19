@@ -36,8 +36,8 @@ if(moduleName === 'npc') console.log(npc(forwardArgs));
 else if(moduleName === 'book') console.log(book(forwardArgs));
 else if(moduleName === 'city') console.log(city());
 else if(moduleName === 'event') console.log(event());
-else if(moduleName === 'price') console.log(price(forwardArgs, true));
-else if(moduleName === 'roll') console.log(roll(forwardArgs, true));
+else if(moduleName === 'price') price(forwardArgs, true);
+else if(moduleName === 'roll') roll(forwardArgs, true);//Don't console log the returned number result
 else if(moduleName === 'rumour') console.log(rumour());
 else if(moduleName === 'shop') console.log(shop(forwardArgs));
 else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
