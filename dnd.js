@@ -23,6 +23,8 @@ const {shop} = require('./lib/shops');
 const {treasure} = require('./lib/treasures');
 /**Import cr calculation module */
 const {cr} = require('./lib/cr');
+/**Import the monster creation and loading module */
+const {monster} = require('./lib/monster');
 
 /**Store all command line parameters in a separate object */
 const args = process.argv.splice(2);
@@ -43,6 +45,7 @@ else if(moduleName === 'rumour') console.log(rumour());
 else if(moduleName === 'shop') console.log(shop(forwardArgs));
 else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
 else if(moduleName === 'cr') cr();//Don't log the returned value
+else if(moduleName === 'monster') monster(forwardArgs);
 //Else check if we need to display the help option
 else if(moduleName === 'help') console.log(displayHelp());
 else if(moduleName === '?') console.log(displayHelp());
@@ -76,6 +79,7 @@ rumour      generates a random rumour or hearsay.
 shop        generates a random shop, size, location and inventory.
 treasure    generates random treasure hoards as well as individual treasure.
 cr          calculates the Challenge Rating of an enemy based on a questionnaire.
+monster     creates a monster using a questionnaire
 help/?      shows this command
 
 Use 'help' after a module name to see the help for that module.
