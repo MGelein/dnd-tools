@@ -1,0 +1,10 @@
+{
+    "enemies": [
+        {"name": "orcA", "hp": 32, "initiative": 12},
+        {"name": "orcB", "hp": 32, "initiative": 12},
+        {"name": "orcC", "hp": 32, "initiative": 12}
+    ],
+    "allies": [
+        "Riswyn", "Nimriel", "Syrina"
+    ]    
+}
