@@ -75,7 +75,7 @@ roll        used to do dice rolls using text notation. f.e. 3d6+3 or 1d4x100
 rumour      generates a random rumour or hearsay.
 shop        generates a random shop, size, location and inventory.
 treasure    generates random treasure hoards as well as individual treasure.
-cr          calculates the Challenge Rating of an enemy based on a questionairre.
+cr          calculates the Challenge Rating of an enemy based on a questionnaire.
 help/?      shows this command
 
 Use 'help' after a module name to see the help for that module.
