@@ -1,0 +1,4 @@
+ogre    3
+Nimriel
+Syrina
+Riswyn

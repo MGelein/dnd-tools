@@ -25,6 +25,8 @@ const {treasure} = require('./lib/treasures');
 const {cr} = require('./lib/cr');
 /**Import the monster creation and loading module */
 const {monster} = require('./lib/monster');
+/**Import combat tracker module */
+const {combat} = require('./lib/combat');
 
 /**Store all command line parameters in a separate object */
 const args = process.argv.splice(2);
@@ -46,6 +48,7 @@ else if(moduleName === 'shop') console.log(shop(forwardArgs));
 else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
 else if(moduleName === 'cr') cr();//Don't log the returned value
 else if(moduleName === 'monster') monster(forwardArgs);
+else if(moduleName === 'combat') combat(forwardArgs);
 //Else check if we need to display the help option
 else if(moduleName === 'help') console.log(displayHelp());
 else if(moduleName === '?') console.log(displayHelp());
