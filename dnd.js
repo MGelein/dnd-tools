@@ -37,7 +37,7 @@ const forwardArgs = args.splice(1).join(" ");
 const moduleName = (args.length > 0) ? args[0].trim().toLowerCase() : "help";
 
 /**Forward the arguments to the right module */
-if(moduleName === 'npc') console.log(npc(forwardArgs));
+if(moduleName === 'npc') npc(forwardArgs, undefined, true);
 else if(moduleName === 'book') console.log(book(forwardArgs));
 else if(moduleName === 'city') console.log(city());
 else if(moduleName === 'event') console.log(event());
