@@ -8,3 +8,8 @@ Regex to match magic table format;
 
 Regex to chance to inventory shop:
 `if(size >= $3) inventory.push({name: "$1", price:"$2"});`
+
+TODO:   
+- Need to add Legendary actions to monsters
+- Add Reactions to monster
+- Damage vulnerabilities etc.
