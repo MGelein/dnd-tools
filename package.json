@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/MGelein/dnd-tools/issues"
   },
-  "homepage": "https://github.com/MGelein/dnd-tools#readme"
+  "homepage": "https://github.com/MGelein/dnd-tools#readme",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "opn": "^5.4.0"
+  }
 }
