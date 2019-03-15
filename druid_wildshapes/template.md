@@ -10,10 +10,10 @@ ___
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|%STR%|%DEX%|%CON%|%INT%|%WIS%|%CHR%|
 >___
-> %MISC%
+%MISC%
 > - **Languages** %LANGUAGES%
 > - **Challenge** %CR%
 > ___
-> %ABILITIES%
+%ABILITIES%
 > ### Actions
-> %ACTIONS%
+%ACTIONS%

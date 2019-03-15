@@ -6,8 +6,38 @@ const fs = require('fs');
 const template = fs.readFileSync('template.md', 'utf-8');
 /**The wildshape dictionary */
 const ws = parseWildshapes();
+const intro = 
+`# Druid Wildshapes
+This document contains most, if not all, of the available wildshapes for a druid in fifth edition Dungeons and Dragons.
+The monsters have been ordered by their challenge rating. Please keep in mind the rules for Wild Shape, as written in
+the Player's Handbook (PHB 66)
+
+For a brief overview you may consult the tables below, but please remember that the Player's Handbook, and ultimately
+the DM has the final say. 
+
+##### Beast Shapes (Normal Druid)
+| Level | Max. CR | Limitations |
+|:----:|:-------------|:--------|
+| 2nd | 1/4 | No flying or swimming speed |
+| 4th | 1/2 | No flying speed |
+| 8th | 1 | None |
+
+
+##### Beast Shapes (Moon Druid)
+| Level | Max. CR | Limitations |
+|:----:|:-------------|:--------|
+| 2nd | 1 | No flying or swimming speed |
+| 4th | 1 | No flying speed |
+| 6th | 2 | No flying speed |
+| 8th | 2 | None |
+| 9th | 3 | None |
+| 12th | 4 | None |
+| 15th | 5 | None |
+| 18th | 6 | None |
+
+`;
 /**Prints the wildshapes content */
-const contents = printWildshapes();
+const contents = intro + printWildshapes();
 //Finally write the file contents to the disk
 fs.writeFileSync('wildshapes.md', contents, 'utf-8');
 
@@ -76,6 +106,9 @@ function fillTemplate(monsterDef) {
     result = result.replace(/%AC%/g, monsterDef.ac);
     result = result.replace(/%HP%/g, monsterDef.hp);
     result = result.replace(/%SPEED%/g, monsterDef.speed);
+    result = result.replace(/%MISC%/g, getMisc(monsterDef));
+    result = result.replace(/%ACTIONS%/g, getActions(monsterDef));
+    result = result.replace(/%ABILITIES%/g, getAbilities(monsterDef));
     result = result.replace(/%STR%/g, abilityScore(monsterDef.str));
     result = result.replace(/%DEX%/g, abilityScore(monsterDef.dex));
     result = result.replace(/%CON%/g, abilityScore(monsterDef.con));
@@ -87,6 +120,60 @@ function fillTemplate(monsterDef) {
 
     //Return the filled-out template
     return result;
+}
+
+/**
+ * Returns the abilities part of the monster md part
+ * @param {Object} mDef 
+ */
+function getAbilities(mDef){
+    //The resulting line array
+    let result = [];
+    //Go thoruhg all abilities
+    mDef.abilities.forEach(ability =>{
+        let line = "> ***" + ability.name + "*** " + ability.desc + "   ";
+        result.push(line);
+    });
+    //Rturn the joined array 
+    if(result.length == 0) result.push(">");
+    return result.join('\n');
+}
+
+/**
+ * Returns the actions part of the monster md part
+ * @param {Object} mDef 
+ */
+function getActions(mDef){
+    //The resulting line array
+    let result = [];
+    //Go thoruhg all abilities
+    mDef.actions.forEach(action =>{
+        let line = "> ***" + action.name + "*** " + action.desc + "   ";
+        result.push(line);
+    });
+    //Rturn the joined array 
+    if(result.length == 0) result.push(">");
+    return result.join('\n');
+}
+
+/**
+ * Returns all the possible extras (damage resistances etc) for ths monster
+ * @param {Object} mDef 
+ */
+function getMisc(mDef){
+    //The resulting line array
+    let result = [];
+    if(mDef.savingThrows.length > 0) result.push("> - **Saving Throws** " + mDef.savingThrows + "   ");
+    if(mDef.skills.length > 0) result.push("> - **Skills** " + mDef.skills + "   ");
+    if(mDef.damageResistances.length > 0) result.push("> - **Damage Resistances** " + mDef.damageResistances + "   ");
+    if(mDef.damageImmunities.length > 0) result.push("> - **Damage Immunities** " + mDef.damageImmunities + "   ");
+    if(mDef.damageVulnerabilities > 0) result.push("> - **Damage Vulnerabilities** " + mDef.damageVulnerabilities + "   ");
+    if(mDef.conditionImmunities > 0) result.push("> - **Condition Immunities** " + mDef.conditionImmunities + "   ");
+    if(mDef.senses > 0) result.push("> - **Senses** " + mDef.senses + "   ");
+
+    //Rturn the joined array 
+    if(result.length == 0) result.push(">");
+    return result.join('\n');
 }
 
 /**
