@@ -6,6 +6,7 @@ const fs = require('fs');
 const template = fs.readFileSync('template.md', 'utf-8');
 /**The wildshape dictionary */
 const ws = parseWildshapes();
+/**The introductory text before the actual statblock hell */
 const intro = 
 `# Druid Wildshapes
 This document contains most, if not all, of the available wildshapes for a druid in fifth edition Dungeons and Dragons.
@@ -47,6 +48,8 @@ fs.writeFileSync('wildshapes.md', contents, 'utf-8');
 function printWildshapes(){
     //The set of lines that will be joined
     let lines = [];
+    //Keep track of how many entries have been shown
+    let counter = 0;
     //Get all the animal names
     let names = Object.keys(ws);
     //The last CR category
@@ -63,6 +66,10 @@ function printWildshapes(){
         }
         //Now add the template
         lines.push(entry.md);
+        counter ++;
+        if([3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 50, 54, 58, 62, 65, 67, 69, 71, 75, 79, 83, 86].indexOf(counter) != -1){
+            lines.push("\n\\page\n<div class='pageNumber auto'></div>\n");
+        }
     });
     //Join all content on a new line
     return lines.join("\n");

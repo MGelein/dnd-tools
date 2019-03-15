@@ -1,6 +1,6 @@
 ___
 > ## %NAME%
->*%SIZE% %TYPE%, %ALIGNMENT%*
+>*%SIZE% %TYPE% %ALIGNMENT%*
 > ___
 > - **Armor Class** %AC%
 > - **Hit Points** %HP%

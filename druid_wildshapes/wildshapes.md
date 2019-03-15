@@ -30,7 +30,7 @@ the DM has the final say.
 ## Challenge Rating 0
 ___
 > ## Baboon
->*Small beast,, unaligned*
+>*Small beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 3 (1d6)
@@ -49,7 +49,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.   
 ___
 > ## Badger
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 3 (1d4 + 1)
@@ -68,7 +68,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.   
 ___
 > ## Bat
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 1 (1d4 - 1)
@@ -86,9 +86,13 @@ ___
 > ***Keen Hearing*** The bat has advantage on Wisdom (Perception) checks that rely on hearing.   
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Cat
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 2 (1d4)
@@ -107,7 +111,7 @@ ___
 > ***Claws*** Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.   
 ___
 > ## Crab
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 11 (natural armor)
 > - **Hit Points** 2 (1d4)
@@ -126,7 +130,7 @@ ___
 > ***Claw*** Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.   
 ___
 > ## Deer
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 4 (1d8)
@@ -145,7 +149,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.   
 ___
 > ## Eagle
->*Small beast,, unaligned*
+>*Small beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 3 (1d6)
@@ -162,9 +166,13 @@ ___
 > ***Keen Sight*** The eagle has advantage on Wisdom (Perception) checks that rely on sight.   
 > ### Actions
 > ***Talons*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Frog
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 1 (1d4 - 1)
@@ -184,7 +192,7 @@ ___
 >
 ___
 > ## Giant Fire Beetle
->*Small beast,, unaligned*
+>*Small beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 4 (1d6 + 1)
@@ -203,7 +211,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage.   
 ___
 > ## Goat
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 4 (1d8)
@@ -223,7 +231,7 @@ ___
 > ***Ram*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.   
 ___
 > ## Hawk
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 1 (1d4 - 1)
@@ -240,9 +248,13 @@ ___
 > ***Keen Sight*** The hawk has advantage on Wisdom (Perception) checks that rely on sight.   
 > ### Actions
 > ***Talons*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Hyena
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 5 (1d8 + 1)
@@ -261,7 +273,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.   
 ___
 > ## Jackal
->*Small beast,, unaligned*
+>*Small beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 3 (1d6)
@@ -281,7 +293,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.   
 ___
 > ## Lizard
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 2 (1d4)
@@ -300,7 +312,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.   
 ___
 > ## Octopus
->*Small beast,, unaligned*
+>*Small beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 3 (1d6)
@@ -320,9 +332,13 @@ ___
 > ### Actions
 > ***Tentacles*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.   
 > ***Ink Cloud (Recharges after a Short or Long Rest)*** A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Owl
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 1 (1d4 - 1)
@@ -342,7 +358,7 @@ ___
 > ***Talons*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage.   
 ___
 > ## Quipper
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 1 (1d4 - 1)
@@ -362,7 +378,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.   
 ___
 > ## Rat
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 1 (1d4 - 1)
@@ -381,7 +397,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.   
 ___
 > ## Raven
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 1 (1d4 - 1)
@@ -398,9 +414,13 @@ ___
 > ***Mimicry*** The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.   
 > ### Actions
 > ***Beak*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Scorpion
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 11 (natural armor)
 > - **Hit Points** 1 (1d4 - 1)
@@ -419,7 +439,7 @@ ___
 > ***Sting*** Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.   
 ___
 > ## Sea Horse
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 1 (1d4 - 1)
@@ -438,7 +458,7 @@ ___
 >
 ___
 > ## Spider
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 1 (1d4 - 1)
@@ -459,7 +479,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.   
 ___
 > ## Vulture
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 5 (1d8 + 1)
@@ -477,9 +497,13 @@ ___
 > ***Pack Tactics*** The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated.   
 > ### Actions
 > ***Beak*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Weasel
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 1 (1d4 - 1)
@@ -500,7 +524,7 @@ ___
 ## Challenge Rating 1/8
 ___
 > ## Blood Hawk
->*Small beast,, unaligned*
+>*Small beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 7 (2d6)
@@ -520,7 +544,7 @@ ___
 > ***Beak*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.   
 ___
 > ## Camel
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 9
 > - **Hit Points** 15 (2d10 + 4)
@@ -539,7 +563,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.   
 ___
 > ## Flying Snake
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 14
 > - **Hit Points** 5 (2d4)
@@ -556,9 +580,13 @@ ___
 > ***Flyby*** The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.   
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Giant Crab
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 15 (natural armor)
 > - **Hit Points** 13 (3d8)
@@ -577,7 +605,7 @@ ___
 > ***Claw*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.   
 ___
 > ## Giant Rat
->*Small beast,, unaligned*
+>*Small beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 7 (2d6)
@@ -597,7 +625,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.   
 ___
 > ## Giant Weasel
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 9 (2d8)
@@ -616,7 +644,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.   
 ___
 > ## Mastiff
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 5 (1d8 + 1)
@@ -633,9 +661,13 @@ ___
 > ***Keen Hearing and Smell*** The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.   
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Mule
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 11 (2d8 + 2)
@@ -655,7 +687,7 @@ ___
 > ***Hooves*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.   
 ___
 > ## Poisonous Snake
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 2 (1d4)
@@ -674,7 +706,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.   
 ___
 > ## Pony
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 11 (2d8 + 2)
@@ -693,7 +725,7 @@ ___
 > ***Hooves*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.   
 ___
 > ## Stirge
->*Tiny beast,, unaligned*
+>*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
 > - **Hit Points** 2 (1d4)
@@ -711,10 +743,14 @@ ___
 > ### Actions
 > ***Blood Drain*** Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss. The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.   
 
+\page
+<div class='pageNumber auto'></div>
+
+
 ## Challenge Rating 1/4
 ___
 > ## Axe Beak
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 19 (3d10 + 3)
@@ -733,7 +769,7 @@ ___
 > ***Beak*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.   
 ___
 > ## Boar
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 11 (natural armor)
 > - **Hit Points** 11 (2d8 + 2)
@@ -753,7 +789,7 @@ ___
 > ***Tusk*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.   
 ___
 > ## Constrictor Snake
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 13 (2d10 + 2)
@@ -773,7 +809,7 @@ ___
 > ***Constrict*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.   
 ___
 > ## Draft Horse
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 19 (3d10 + 3)
@@ -790,9 +826,13 @@ ___
 >
 > ### Actions
 > ***Hooves*** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Elk
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 13 (2d10 + 2)
@@ -812,7 +852,7 @@ ___
 > ***Hooves*** Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.   
 ___
 > ## Giant Badger
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 13 (2d8 + 4)
@@ -833,7 +873,7 @@ ___
 > ***Claws*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.   
 ___
 > ## Giant Bat
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 22 (4d10)
@@ -853,7 +893,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.   
 ___
 > ## Giant Centipede
->*Small beast,, unaligned*
+>*Small beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 4 (1d6 + 1)
@@ -870,9 +910,13 @@ ___
 >
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Giant Frog
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 18 (4d8)
@@ -893,7 +937,7 @@ ___
 > ***Swallow*** The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.   
 ___
 > ## Giant Lizard
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 19 (3d10 + 3)
@@ -912,7 +956,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.   
 ___
 > ## Giant Owl
->*Large beast,, neutral*
+>*Large beast, neutral*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 19 (3d10 + 3)
@@ -932,7 +976,7 @@ ___
 > ***Talons*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage.   
 ___
 > ## Giant Poisonous Snake
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 14
 > - **Hit Points** 11 (2d8 + 2)
@@ -949,9 +993,13 @@ ___
 >
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Giant Wolf Spider
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 11 (2d8 + 2)
@@ -972,7 +1020,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.   
 ___
 > ## Panther
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 13 (3d8)
@@ -993,7 +1041,7 @@ ___
 > ***Claw*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.   
 ___
 > ## Pteranodon
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 13 (3d8)
@@ -1010,9 +1058,13 @@ ___
 > ***Flyby*** The pteranodon doesn't provoke an opportunity attack when it flies out of an enemy's reach.   
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Riding Horse
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 13 (2d10 + 2)
@@ -1031,7 +1083,7 @@ ___
 > ***Hooves*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.   
 ___
 > ## Wolf
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 11 (2d8 + 2)
@@ -1053,7 +1105,7 @@ ___
 ## Challenge Rating 1/2
 ___
 > ## Ape
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 19 (3d8 + 6)
@@ -1074,7 +1126,7 @@ ___
 > ***Rock*** Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.   
 ___
 > ## Black Bear
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 11 (natural armor)
 > - **Hit Points** 19 (3d8 + 6)
@@ -1093,9 +1145,13 @@ ___
 > ***Multiattack*** The bear makes two attacks: one with its bite and one with its claws.   
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.   
 > ***Claws*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Crocodile
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 19 (3d10 + 3)
@@ -1114,7 +1170,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.   
 ___
 > ## Giant Goat
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 11 (natural armor)
 > - **Hit Points** 19 (3d10 + 3)
@@ -1134,7 +1190,7 @@ ___
 > ***Ram*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.   
 ___
 > ## Giant Sea Horse
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 16 (3d10)
@@ -1154,7 +1210,7 @@ ___
 > ***Ram*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.   
 ___
 > ## Giant Wasp
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 13 (3d8)
@@ -1171,9 +1227,13 @@ ___
 >
 > ### Actions
 > ***Sting*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Reef Shark
->*Medium beast,, unaligned*
+>*Medium beast, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 22 (4d8 + 4)
@@ -1193,7 +1253,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.   
 ___
 > ## Warhorse
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 19 (3d10 + 3)
@@ -1214,7 +1274,7 @@ ___
 ## Challenge Rating 1
 ___
 > ## Brown Bear
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 11 (natural armor)
 > - **Hit Points** 34 (4d10 + 12)
@@ -1235,7 +1295,7 @@ ___
 > ***Claws*** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.   
 ___
 > ## Dire Wolf
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
 > - **Hit Points** 37 (5d10 + 10)
@@ -1253,9 +1313,13 @@ ___
 > ***Pack Tactics*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.   
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Giant Eagle
->*Large beast,, neutral good*
+>*Large beast, neutral good*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 26 (4d10 + 4)
@@ -1276,7 +1340,7 @@ ___
 > ***Talons*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.   
 ___
 > ## Giant Hyena
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 45 (6d10 + 12)
@@ -1295,7 +1359,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.   
 ___
 > ## Giant Octopus
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 52 (8d10 + 8)
@@ -1315,9 +1379,13 @@ ___
 > ### Actions
 > ***Tentacles*** Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.   
 > ***Ink Cloud (Recharges after a Short or Long Rest)*** A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Giant Spider
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
 > - **Hit Points** 26 (4d10 + 4)
@@ -1339,7 +1407,7 @@ ___
 > ***Web (Recharge 5-6)*** Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).   
 ___
 > ## Giant Toad
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 11
 > - **Hit Points** 39 (6d10 + 6)
@@ -1358,9 +1426,13 @@ ___
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.   
 > ***Swallow*** The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Giant Vulture
->*Large beast,, neutral evil*
+>*Large beast, neutral evil*
 > ___
 > - **Armor Class** 10
 > - **Hit Points** 22 (3d10 + 6)
@@ -1382,7 +1454,7 @@ ___
 > ***Talons*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.   
 ___
 > ## Lion
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 26 (4d10 + 4)
@@ -1403,9 +1475,13 @@ ___
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.   
 > ***Claw*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Tiger
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 37 (5d10 + 10)
@@ -1428,7 +1504,7 @@ ___
 ## Challenge Rating 2
 ___
 > ## Allosaurus
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 51 (6d10 + 18)
@@ -1446,9 +1522,13 @@ ___
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage.   
 > ***Claw*** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Giant Boar
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 42 (5d10 + 15)
@@ -1468,7 +1548,7 @@ ___
 > ***Tusk*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.   
 ___
 > ## Giant Constrictor Snake
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 60 (8d12 + 8)
@@ -1488,7 +1568,7 @@ ___
 > ***Constrict*** Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.   
 ___
 > ## Giant Elk
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
 > - **Hit Points** 42 (5d12 + 10)
@@ -1508,7 +1588,7 @@ ___
 > ***Hooves*** Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage.   
 ___
 > ## Hunter Shark
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 45 (6d10 + 12)
@@ -1526,9 +1606,13 @@ ___
 > ***Water Breathing*** The shark can breathe only underwater.   
 > ### Actions
 > ***Bite*** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.   
+
+\page
+<div class='pageNumber auto'></div>
+
 ___
 > ## Plesiosaurus
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 68 (8d10 + 24)
@@ -1547,7 +1631,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage.   
 ___
 > ## Polar Bear
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 42 (5d10 + 15)
@@ -1568,7 +1652,7 @@ ___
 > ***Claws*** Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.   
 ___
 > ## Rhinoceros
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 11 (natural armor)
 > - **Hit Points** 45 (6d10 + 12)
@@ -1587,7 +1671,7 @@ ___
 > ***Gore*** Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.   
 ___
 > ## Saber Toothed Tiger
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 52 (7d10 + 14)
@@ -1607,10 +1691,14 @@ ___
 > ***Bite*** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.   
 > ***Claw*** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.   
 
+\page
+<div class='pageNumber auto'></div>
+
+
 ## Challenge Rating 3
 ___
 > ## Ankylosaurus
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 15 (natural armor)
 > - **Hit Points** 68 (8d12 + 16)
@@ -1629,7 +1717,7 @@ ___
 > ***Tail*** Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.   
 ___
 > ## Giant Scorpion
->*Large beast,, unaligned*
+>*Large beast, unaligned*
 > ___
 > - **Armor Class** 15 (natural armor)
 > - **Hit Points** 52 (7d10 + 14)
@@ -1650,7 +1738,7 @@ ___
 > ***Sting*** Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.   
 ___
 > ## Killer Whale
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 90 (12d12 + 12)
@@ -1673,7 +1761,7 @@ ___
 ## Challenge Rating 4
 ___
 > ## Elephant
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 76 (8d12 + 24)
@@ -1692,10 +1780,14 @@ ___
 > ***Gore*** Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) piercing damage.   
 > ***Stomp*** Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage.   
 
+\page
+<div class='pageNumber auto'></div>
+
+
 ## Challenge Rating 5
 ___
 > ## Giant Crocodile
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
 > - **Hit Points** 85 (9d12 + 27)
@@ -1716,7 +1808,7 @@ ___
 > ***Tail*** Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.   
 ___
 > ## Giant Shark
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 126 (11d12 + 55)
@@ -1736,7 +1828,7 @@ ___
 > ***Bite*** Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.   
 ___
 > ## Triceratops
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 95 (10d12 + 30)
@@ -1755,10 +1847,14 @@ ___
 > ***Gore*** Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage.   
 > ***Stomp*** Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage   
 
+\page
+<div class='pageNumber auto'></div>
+
+
 ## Challenge Rating 6
 ___
 > ## Mammoth
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 126 (11d12 + 55)
@@ -1780,7 +1876,7 @@ ___
 ## Challenge Rating 7
 ___
 > ## Giant Ape
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 157 (15d12 + 60)
@@ -1803,7 +1899,7 @@ ___
 ## Challenge Rating 8
 ___
 > ## Tyrannosaurus Rex
->*Huge beast,, unaligned*
+>*Huge beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
 > - **Hit Points** 136 (13d12 + 52)
