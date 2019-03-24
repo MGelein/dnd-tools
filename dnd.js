@@ -27,6 +27,8 @@ const {cr} = require('./lib/cr');
 const {monster} = require('./lib/monster');
 /**Import combat tracker module */
 const {combat} = require('./lib/combat');
+/**Import dungeon blurp creator */
+const {dungeon} = require('./lib/dungeon');
 
 /**Store all command line parameters in a separate object */
 const args = process.argv.splice(2);
@@ -49,6 +51,7 @@ else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
 else if(moduleName === 'cr') cr();//Don't log the returned value
 else if(moduleName === 'monster') monster(forwardArgs);
 else if(moduleName === 'combat') combat(forwardArgs);
+else if(moduleName === 'dungeon') dungeon(forwardArgs);
 //Else check if we need to display the help option
 else if(moduleName === 'help') console.log(displayHelp());
 else if(moduleName === '?') console.log(displayHelp());
@@ -83,6 +86,7 @@ shop        generates a random shop, size, location and inventory.
 treasure    generates random treasure hoards as well as individual treasure.
 cr          calculates the Challenge Rating of an enemy based on a questionnaire.
 monster     creates a monster using a questionnaire
+dungeon     generates a dungeon description. No contents, just a bit of lore to get started.
 help/?      shows this command
 
 Use 'help' after a module name to see the help for that module.
