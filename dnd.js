@@ -51,7 +51,7 @@ else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
 else if(moduleName === 'cr') cr();//Don't log the returned value
 else if(moduleName === 'monster') monster(forwardArgs);
 else if(moduleName === 'combat') combat(forwardArgs);
-else if(moduleName === 'dungeon') dungeon(forwardArgs);
+else if(moduleName === 'dungeon') dungeon(forwardArgs, true);
 //Else check if we need to display the help option
 else if(moduleName === 'help') console.log(displayHelp());
 else if(moduleName === '?') console.log(displayHelp());
