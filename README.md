@@ -12,4 +12,3 @@ Regex to chance to inventory shop:
 TODO:   
 - Need to add Legendary actions to monsters
 - Add Reactions to monster
-- Damage vulnerabilities etc.
