@@ -8,4 +8,4 @@ encounter -p 3 -l 15 -m ogre
 
 ### Linking Monsters
 Every monster should have some 'related' monsters in its file. For every jump away from the input monster the chance 
-that monster gets picked gets smaller. There is even a small chance the input monster doesn't get picked.
+that monster gets picked gets smaller. There is even a small chance the input monster doesn't get picked. Bla
