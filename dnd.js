@@ -4,31 +4,33 @@
  */
 
 /**Import the book generator */
-const {book} = require('./lib/books');
+const { book } = require('./lib/books');
 /**Import the city generator */
-const {city} = require('./lib/cities');
+const { city } = require('./lib/cities');
 /**Import events module */
-const {event} = require("./lib/events");
+const { event } = require("./lib/events");
 /**Import NPC module */
-const {npc} = require('./lib/npcs');
+const { npc } = require('./lib/npcs');
 /**Import the prices table */
-const {price} = require('./lib/prices');
+const { price } = require('./lib/prices');
 /**Import roll functionality from the dice library */
-const {roll} = require('./lib/dice');
+const { roll } = require('./lib/dice');
 /**Import the module that holds the rumours */
-const {rumour} = require('./lib/rumours');
+const { rumour } = require('./lib/rumours');
 /**Import shop module */
-const {shop} = require('./lib/shops');
+const { shop } = require('./lib/shops');
 /**Import treasure module */
-const {treasure} = require('./lib/treasures');
+const { treasure } = require('./lib/treasures');
 /**Import cr calculation module */
-const {cr} = require('./lib/cr');
+const { cr } = require('./lib/cr');
 /**Import the monster creation and loading module */
-const {monster} = require('./lib/monster');
+const { monster } = require('./lib/monster');
 /**Import combat tracker module */
-const {combat} = require('./lib/combat');
+const { combat } = require('./lib/combat');
 /**Import dungeon blurp creator */
-const {dungeon} = require('./lib/dungeon');
+const { dungeon } = require('./lib/dungeon');
+/**Import tarot module */
+const { tarot } = require('./lib/tarot');
 
 /**Store all command line parameters in a separate object */
 const args = process.argv.splice(2);
@@ -39,36 +41,37 @@ const forwardArgs = args.splice(1).join(" ");
 const moduleName = (args.length > 0) ? args[0].trim().toLowerCase() : "help";
 
 /**Forward the arguments to the right module */
-if(moduleName === 'npc') npc(forwardArgs, undefined, true);
-else if(moduleName === 'book') console.log(book(forwardArgs));
-else if(moduleName === 'city') console.log(city());
-else if(moduleName === 'event') console.log(event());
-else if(moduleName === 'price') price(forwardArgs, true);
-else if(moduleName === 'roll') roll(forwardArgs, true);//Don't console log the returned number result
-else if(moduleName === 'rumour') console.log(rumour());
-else if(moduleName === 'shop') console.log(shop(forwardArgs));
-else if(moduleName === 'treasure') console.log(treasure(forwardArgs));
-else if(moduleName === 'cr') cr();//Don't log the returned value
-else if(moduleName === 'monster') monster(forwardArgs);
-else if(moduleName === 'combat') combat(forwardArgs);
-else if(moduleName === 'dungeon') dungeon(forwardArgs, true);
+if (moduleName === 'npc') npc(forwardArgs, undefined, true);
+else if (moduleName === 'book') console.log(book(forwardArgs));
+else if (moduleName === 'city') console.log(city());
+else if (moduleName === 'event') console.log(event());
+else if (moduleName === 'price') price(forwardArgs, true);
+else if (moduleName === 'roll') roll(forwardArgs, true);//Don't console log the returned number result
+else if (moduleName === 'rumour') console.log(rumour());
+else if (moduleName === 'shop') console.log(shop(forwardArgs));
+else if (moduleName === 'treasure') console.log(treasure(forwardArgs));
+else if (moduleName === 'cr') cr();//Don't log the returned value
+else if (moduleName === 'monster') monster(forwardArgs);
+else if (moduleName === 'combat') combat(forwardArgs);
+else if (moduleName === 'dungeon') dungeon(forwardArgs, true);
+else if (moduleName === 'tarot') tarot();
 //Else check if we need to display the help option
-else if(moduleName === 'help') console.log(displayHelp());
-else if(moduleName === '?') console.log(displayHelp());
+else if (moduleName === 'help') console.log(displayHelp());
+else if (moduleName === '?') console.log(displayHelp());
 //Unrecognized module
 else {
-let s = `Unrecognized module name: ${moduleName}. 
+    let s = `Unrecognized module name: ${moduleName}. 
 Try 'help' for an overview of all options
 `;
-console.log(s);
+    console.log(s);
 }
 
 /**
  * Returns the help options
  */
-function displayHelp(){
-let s =  
-`----------
+function displayHelp() {
+    let s =
+        `----------
 DND Tools
 ----------
 Welcome to my DND tool suite. In this suite you will find a list of possibly useful tools 
@@ -91,5 +94,5 @@ help/?      shows this command
 
 Use 'help' after a module name to see the help for that module.
 `
-return s;
+    return s;
 }
